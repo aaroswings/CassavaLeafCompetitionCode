@@ -1,7 +1,10 @@
 # My Cassava Leaf Disease Classification Competition Code
 
 This is the code I used for training models for the [Kaggle Cassava Leaf Disease Classification Challenge.](https://www.kaggle.com/c/cassava-leaf-disease-classification/overview)
-To be in the same state as when I trained models with it, an `input` folder structured like this must be added:
+
+## Directory setup
+
+Retraining requires downloading and organizing some external files. To be in the same state as when I trained models with it, an `input` folder structured like this must be added:
 ```
 input
 ├── 2019_2020_merged
@@ -27,7 +30,13 @@ The contents of `2019_2020_merged/train_images/` and `2019_2020_merged/train.csv
 
 The folder `2019_2020_merged/depth_maps` is populated using `generate_depth_maps.py`.
 
+
+Train `training/` folder contains config files used for various training settings of the model I used in my ensemble, but not the pickled model files due to their size. The trained model files I used in my ensemble are [here](https://www.kaggle.com/aaroswings/cassava-final-ensemble-models).
+
+## Notebooks
+
 [View the training notebook in nbviwer.](https://nbviewer.jupyter.org/github/aaroswings/CassavaLeafCompetitionCode/blob/main/training_notebook.ipynb)
+
 My inference notebook submitted to Kaggle is [here](https://www.kaggle.com/aaroswings/ensemble-inference-notebook).
 
 Note that much of this code is in a prototype state! I used it for experiments and there is a lot of ugly branching due to quickly prototyping out different ideas. It was definitely not a software engineering project.
