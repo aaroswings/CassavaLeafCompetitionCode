@@ -27,4 +27,4 @@ The contents of `2019_2020_merged/train_images/` and `2019_2020_merged/train.csv
 
 The folder `2019_2020_merged/depth_maps` is populated using `generate_depth_maps.py`.
 
-My inference notebook submitted to Kaggle is [https://www.kaggle.com/aaroswings/ensemble-inference-notebook](here).
+My inference notebook submitted to Kaggle is [here](https://www.kaggle.com/aaroswings/ensemble-inference-notebook).
