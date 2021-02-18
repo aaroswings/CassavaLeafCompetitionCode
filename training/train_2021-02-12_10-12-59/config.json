@@ -1,0 +1,1 @@
+{"seed":123,"timestamp":"2021-02-12_10-12-59","total_epochs":9,"device":"cuda:0","model_name":"tf_efficientnet_b7_ns","batch_size":12,"target_size":512,"rrc_scale_min":0.25,"rrc_scale_max":1.0,"mixup_alpha":0.2,"base_lr":0.01,"momentum":0.9,"weight_decay":0.000001,"cyclic_class_weight_period":128,"lr_scheduler":"multiplicative","multiplicative_lr_factor":0.9,"cycle_max_lr":0.01}
