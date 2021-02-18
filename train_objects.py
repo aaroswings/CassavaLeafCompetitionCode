@@ -16,11 +16,8 @@ def get_model(name=None):
     if 'efficientnet' in name:
         model = timm.create_model(name, pretrained = True)
         model.classifier = torch.nn.Linear(model.classifier.in_features, 5)
-
-    if 'resnext' in name:
-        # or model = torch.hub.load('facebookresearch/WSL-Images', name)
-        model = torch.load(f'input/networks/resnext101/{name}.pickle')
-        model.fc = torch.nn.Linear(model.fc.in_features, 5)
+    else:
+        raise ValueError('Unsupported model name')
         
     for module in model.modules():
         if isinstance(module, torch.nn.BatchNorm2d):
