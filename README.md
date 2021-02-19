@@ -39,4 +39,3 @@ Train `training/` folder contains config files used for various training setting
 
 My inference notebook submitted to Kaggle is [here](https://www.kaggle.com/aaroswings/ensemble-inference-notebook).
 
-Note that much of this code is in a prototype state! I used it for experiments and there is a lot of ugly branching due to quickly prototyping out different ideas. It was definitely not a software engineering project.
