@@ -22,7 +22,7 @@ input
 └── sam-optimizer-pytorch
 ```
 
-The contents of `2019_2020_merged/train_images/` and `2019_2020_merged/train.csv` are from [zzy990106's merged dataset dataset.](https://www.kaggle.com/zzy990106/cassava-merged-data)
+The contents of `2019_2020_merged/train_images/` and `2019_2020_merged/train.csv` are from [zzy990106's merged dataset.](https://www.kaggle.com/zzy990106/cassava-merged-data)
 
 
 `input/` also needs rwightman's [pytorch-image-models-master](https://github.com/rwightman/pytorch-image-models) and davda54's [SAM optimizer for pytorch.](https://github.com/davda54/sam)
